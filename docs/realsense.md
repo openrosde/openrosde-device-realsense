@@ -47,7 +47,7 @@ roslaunch openrosde_realsense_launch realsense_camera.launch camera:=wrist_camer
 - `color_width`, `color_height`, `color_fps`, `depth_width`, `depth_height`, and `depth_fps` default to `-1`, the default profile of the camera, and lower values cut the USB, CPU, and network load, such as `color_width:=640 color_height:=480 color_fps:=15`.
 - `align_depth:=true` also publishes the depth aligned to the color image on `/<camera>/aligned_depth_to_color/image_raw`.
 
-## 📷📷 Several Cameras
+## 🎥 Several Cameras
 
 Start the launch file once for each camera, with a different name and serial number each time:
 

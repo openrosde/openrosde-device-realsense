@@ -1,4 +1,4 @@
-# OpenRoSDE Device: RealSense
+# OpenRoSDE RealSense Device
 
 `openrosde-device-realsense` is the device extension of [OpenRoSDE](https://gitlab.com/coarobo/SDE) for the RealSense depth cameras, which packages the `realsense2_camera` driver of [`realsense-ros`](https://github.com/realsenseai/realsense-ros) with a launch file that starts one camera by its name and its serial number.
 It names no robot and holds no serial number, so any platform or setup of OpenRoSDE that carries RealSense cameras activates it and passes the serial numbers of its own cameras.
