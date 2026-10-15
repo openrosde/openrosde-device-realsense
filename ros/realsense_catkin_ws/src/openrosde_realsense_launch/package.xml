@@ -1,0 +1,19 @@
+<package format="2">
+  <name>openrosde_realsense_launch</name>
+  <version>1.0.0</version>
+  <description>
+    The 'openrosde_realsense_launch' package provides launch files for the RealSense depth cameras in OpenRoSDE, around the 'realsense2_camera' driver.
+  </description>
+  <maintainer email="lotfi@coarobo.com">Lotfi El Hafi</maintainer>
+  <author email="lotfi@coarobo.com">Lotfi El Hafi</author>
+
+  <license>Apache-2.0</license>
+
+  <url type="repository">https://gitlab.com/coarobo/openrosde/openrosde-device-realsense</url>
+  <url type="bugtracker">https://gitlab.com/coarobo/openrosde/openrosde-device-realsense/-/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>realsense2_description</exec_depend>
+</package>
