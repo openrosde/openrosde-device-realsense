@@ -2,8 +2,6 @@
 
 Documentation of the RealSense device of OpenRoSDE, which packages the `realsense2_camera` driver of [`realsense-ros`](https://github.com/realsenseai/realsense-ros) for the RealSense depth cameras, such as the D435 and the D435i.
 
-[[_TOC_]]
-
 ## 🔗 External Resources
 
 - RealSense depth cameras: [https://realsenseai.com/](https://realsenseai.com/)
